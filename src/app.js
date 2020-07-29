@@ -4,9 +4,9 @@ import ReactDOM from "react-dom"
 
 // We need to include all of the components we"re utilizing
 
-import Navbar from "./components/Navbar"
-import Jumbotron from "./components/Jumbotron"
-import Panel from "./components/Panel"
+import Navbar from "./Navbar"
+import Jumbotron from "./Jumbotron"
+import Panel from "./Panel"
 
 ReactDOM.render(
 // Here we dump all of the components into a single main-container
