@@ -3,7 +3,7 @@ var path = require('path');
 // build_dir represents the directory path of the bundle file output
 var BUILD_DIR = path.resolve(__dirname, 'public');
 // app_dir holds the directory path of the react application's codebase
-var APP_DIR = path.resolve(__dirname, 'app');
+var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
     entry: APP_DIR + '/app.js',
