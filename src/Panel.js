@@ -5,14 +5,39 @@ class Panel extends React.Component {
         return (
             <div className="panel panel-default">
                 <div className="panel-heading">
-                    Non eu sit duis adipisicing esse incididunt ad proident.
+                    <strong>Available Employees</strong>
                 </div>
-                <div className="panel-body">
-                    Aliquip dolore commodo nostrud minim. Cillum do enim non ullamco. Commodo magna eu ex mollit sunt
-                    amet fugiat. In irure eu enim id ea sit nostrud incididunt ad adipisicing.Aliquip dolore commodo
-                    nostrud minim. Cillum do enim non ullamco. Commodo magna eu ex mollit sunt amet fugiat. In irure eu
-                    enim id ea sit nostrud incididunt ad adipisicing.
-                </div>
+                <table class="responsive-table">
+        <thead>
+          <tr>
+              <th>Full Name</th>
+              <th>Location</th>
+              <th>Skills</th>
+              <th>Level</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Smith, John</td>
+            <td>New York Metro</td>
+            <td>C++</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <td>Smith, Ethan</td>
+            <td>Seattle, WA</td>
+            <td>SAS</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Smith, Emma</td>
+            <td>Boston, MA</td>
+            <td>Oracle Cloud</td>
+            <td>9</td>
+          </tr>
+        </tbody>
+      </table>
             </div>
         );
     }
